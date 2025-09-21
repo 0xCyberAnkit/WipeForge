@@ -1,0 +1,18 @@
+
+-----------------------------------------------
+WipeForge Data Sanitization Certificate
+-----------------------------------------------
+
+This certifies that the following device has been securely sanitized
+using the WipeForge platform.
+
+Device Name: External Drive Device
+Device ID:   External Drive
+Wiping Method: DoD 5220.22-M
+Date of Sanitization: 2025-09-22 04:36:08
+
+This process meets or exceeds industry standards for data destruction.
+
+Certificate ID: 53b4a455851bc718
+
+-----------------------------------------------

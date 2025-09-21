@@ -1,0 +1,18 @@
+
+-----------------------------------------------
+WipeForge Data Sanitization Certificate
+-----------------------------------------------
+
+This certifies that the following device has been securely sanitized
+using the WipeForge platform.
+
+Device Name: Desktop Device
+Device ID:   Desktop
+Wiping Method: DoD 5220.22-M
+Date of Sanitization: 2025-09-22 04:20:10
+
+This process meets or exceeds industry standards for data destruction.
+
+Certificate ID: 0e5a32edb161b582
+
+-----------------------------------------------

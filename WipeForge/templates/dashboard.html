@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ctrl+Alt+Defeat – Wipe Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f172a] text-white font-sans min-h-screen">
+
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <h1 class="text-4xl font-bold text-red-500 tracking-wide">Ctrl+Alt+Defeat</h1>
+      <p class="mt-2 text-gray-300 text-lg">Secure Data Wiping for Trustworthy IT Asset Recycling</p>
+      <p class="mt-1 text-sm text-gray-400 italic">“We don’t just erase data — we erase doubt.”</p>
+    </header>
+
+    <!-- Wipe Panel -->
+    <div class="bg-[#1e293b] rounded-xl shadow-lg p-8">
+      <h2 class="text-2xl font-semibold text-white mb-6">🧹 Initiate Secure Wipe</h2>
+
+      <form action="/start-wipe/" method="get">
+        <!-- Device Selector -->
+        <label for="device" class="block text-gray-300 mb-2">Choose Device Type:</label>
+        <select name="device" id="device" class="w-full p-3 rounded bg-[#0f172a] text-white border border-gray-600 mb-6">
+          <option value="Desktop">🖥️ Desktop</option>
+          <option value="Laptop">💻 Laptop</option>
+          <option value="Mobile">📱 Mobile</option>
+          <option value="External Drive">💾 External Drive</option>
+        </select>
+
+        <!-- CTA Button -->
+        <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded transition duration-300">
+          🚀 Start Wipe Process
+        </button>
+      </form>
+
+      <!-- Trust Message -->
+      <div class="mt-6 text-sm text-gray-400 text-center">
+        Your wipe will follow industry standards like DoD 5220.22-M and Gutmann.  
+        A tamper-proof certificate will be generated and logged on our blockchain.
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-gray-500 text-xs">
+      &copy; 2025 Ctrl+Alt+Defeat | SIH25070 | Built with Django + Tailwind
+    </footer>
+  </div>
+
+</body>
+</html>
